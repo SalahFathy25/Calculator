@@ -135,10 +135,10 @@ class CalcAppState extends State<CalcApp> {
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
                       CalcButton(
-                        text: 'ac',
+                        text: 'AC',
                         fillColor: const Color(0xff0f5322),
                         textColor: const Color(0xffc2edcf),
-                        textSize: 15,
+                        textSize: 22,
                         callback: allClear,
                       ),
                       CalcButton(
